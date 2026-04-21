@@ -40,10 +40,23 @@
 |---|---|
 | Modelo | Flipsky BLDC 6374 190KV 3250W |
 | Quantidade | 2 (dual, um por canal) |
-| Tipo | Correia |
+| Tipo | Corrente (chain drive) |
 | KV | 190KV |
 | Potência | 3250W cada |
 | Proteção | À prova d'água e à prova de poeira |
+
+## Transmissão
+
+| Parâmetro | Valor |
+|---|---|
+| Tipo | Corrente (chain drive) |
+| Pinhão do motor | 04C, 9T, furo 8mm |
+| Material pinhão | Aço 45#, tratamento superficial de têmpera por alta frequência |
+| Passo pinhão | 6.35mm |
+| Espessura dente pinhão | 3mm |
+| Coroa da roda | 25H, 70T, 29mm |
+| Relação de marcha | 7.78:1 (70/9) |
+| Relação original | 5.22:1 (47/9) — coroa trocada por mais torque |
 
 ## Notas
 

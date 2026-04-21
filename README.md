@@ -12,7 +12,7 @@ Backup de configurações do skate elétrico Maldita.
 ## Motores
 
 - **Modelo**: Flipsky BLDC 6374 190KV 3250W (x2)
-- **Tipo**: Motor de correia para skate elétrico
+- **Tipo**: Motor de corrente para skate elétrico
 - **KV**: 190KV
 - **Potência**: 3250W cada
 - **Proteção**: À prova d'água e à prova de poeira
@@ -22,6 +22,13 @@ Backup de configurações do skate elétrico Maldita.
 - **Modelo**: Tela remota com receptor único (Uni1 versão 2)
 - **Compatibilidade**: VESC, Spintend Ubox V2
 - **Frequência**: 2.4GHz
+
+## Transmissão
+
+- **Tipo**: Corrente (chain drive)
+- **Pinhão do motor**: 04C, 9T, furo 8mm, aço 45#
+- **Coroa da roda**: 25H, 70T, 29mm (original: 47T — trocada por mais torque)
+- **Relação de marcha**: 7.78:1
 
 ## Firmware
 
