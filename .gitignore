@@ -1,0 +1,26 @@
+# Firmware build artifacts
+firmware/build/
+firmware/*.o
+firmware/*.elf
+firmware/*.bin
+firmware/*.hex
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# EDA tools
+hardware/**/*.bak
+hardware/pcb/**/*.gbr
+hardware/pcb/**/*.drl
+
+# Secrets / keys
+.env
+credentials.*
