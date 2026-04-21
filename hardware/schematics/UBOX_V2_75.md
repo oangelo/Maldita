@@ -36,14 +36,51 @@
 
 ## Motores
 
+### Specs Gerais
+
 | Parâmetro | Valor |
 |---|---|
 | Modelo | Flipsky BLDC 6374 190KV 3250W |
 | Quantidade | 2 (dual, um por canal) |
-| Tipo | Corrente (chain drive) |
+| Tipo | Brushless DC (BLDC) |
 | KV | 190KV |
-| Potência | 3250W cada |
+| Potência máxima | 3250W cada |
+| Corrente máxima | 85A |
+| Tensão máxima | 12S (50.4V) |
+| Torque máximo | 8Nm |
+| Resistência | 0.05 Ohm |
 | Proteção | À prova d'água e à prova de poeira |
+
+### Elétrico / Magnético
+
+| Parâmetro | Valor |
+|---|---|
+| Número de polos | 14 (7 pares de polos) |
+| Ímãs | N42SH (alta temperatura) |
+| Estator | Aço japonês laminado, 0.2mm de espessura |
+| Sensores | Hall Effect 120°, fio sensor JST-ZH 6pin 1.5mm pitch |
+| Modo | Sensorless (comum) ou com sensores Hall |
+
+### Dimensões e Mecânico
+
+| Parâmetro | Valor |
+|---|---|
+| Diâmetro | 63mm |
+| Comprimento | 74mm |
+| Eixo | 8mm diâmetro, 32mm comprimento |
+| Chaveta | 3x3x20mm (chave incluída) |
+| Peso | 0.86kg / 1.9 lb |
+| Parafusos montagem | M4 (não incluídos) |
+
+### Fiação
+
+| Cor | Fase |
+|---|---|
+| Azul | A |
+| Preto | B |
+| Amarelo | C |
+
+- Fios: silicone 12AWG, 130mm, conector bullet 4.0mm (macho)
 
 ## Transmissão
 

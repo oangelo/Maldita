@@ -12,9 +12,18 @@ Backup de configurações do skate elétrico Maldita.
 ## Motores
 
 - **Modelo**: Flipsky BLDC 6374 190KV 3250W (x2)
-- **Tipo**: Motor de corrente para skate elétrico
+- **Tipo**: Brushless DC (BLDC), sensorless / Hall
 - **KV**: 190KV
 - **Potência**: 3250W cada
+- **Corrente máx**: 85A
+- **Tensão máx**: 12S (50.4V)
+- **Torque máx**: 8Nm
+- **Resistência**: 0.05 Ohm
+- **Polos**: 14 (7 pares)
+- **Ímãs**: N42SH
+- **Eixo**: 8mm x 32mm, chaveta 3x3x20mm
+- **Peso**: 0.86kg cada
+- **Dimensões**: 63mm x 74mm
 - **Proteção**: À prova d'água e à prova de poeira
 
 ## Controle Remoto
