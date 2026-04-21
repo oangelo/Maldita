@@ -4,10 +4,13 @@ Backup de configurações do skate elétrico Maldita.
 
 ## Hardware
 
-- **ESC**: UBOX_V2_75 (Ubox V2 75V 100A x2 J) — a plaquinha vermelha da Maldita
+- **ESC**: UBOX_V2_75 (Spintend Ubox V2 75V 100A x2 J) — a plaquinha vermelha da Maldita
 - **Topologia**: Dual ESC (dois canais independentes)
-- **Tensão máxima**: 75V
-- **Corrente máxima**: 100A por canal
+- **Tensão**: 16–75V (pico < 80V)
+- **Corrente máxima**: 100A por canal / 200A total
+- **Dimensões**: 130 × 83 × 27mm / 396g
+- **Saída 12V**: máx 3A (luz + buzina)
+- **Saída 5V**: máx 500mA
 
 ## Motores
 
@@ -28,9 +31,33 @@ Backup de configurações do skate elétrico Maldita.
 
 ## Controle Remoto
 
-- **Modelo**: Tela remota com receptor único (Uni1 versão 2)
-- **Compatibilidade**: VESC, Spintend Ubox V2
+- **Marca**: Spintend
+- **Modelo**: Uni1 V2
+- **Tela**: OLED (dados em tempo real)
+- **Bateria**: Lithium 450mAh (~11h de duração)
 - **Frequência**: 2.4GHz
+- **Protocolo**: PPM ou UART (configurável)
+- **CanBus**: On/Off pelo controle
+- **Botão extra**: Controle de luz de freio / farol / buzina
+- **Firmware**: Bootloader, suporte a atualização online
+- **Compatibilidade**: VESC, Spintend Ubox V2
+
+## Bateria
+
+- **Configuração**: 16S6P
+- **Tensão nominal**: 59.2V (16 × 3.7V)
+- **Tensão carga cheia**: 67.2V (16 × 4.2V)
+- **BMS**: Daly Smart BMS com módulo WiFi
+- **Células**: Antigas (< 2500mAh por célula)
+- **Capacidade estimada**: < 15Ah (6 × < 2500mAh)
+
+## Rodas
+
+- **Pneu**: 260 × 85 (3.00-4 / 10"x3") pneumático
+- **Diâmetro externo**: 260mm
+- **Largura**: 85mm
+- **Tipo**: Pneumático com câmara de ar
+- **Pressão**: ~50 PSI
 
 ## Transmissão
 
@@ -38,6 +65,16 @@ Backup de configurações do skate elétrico Maldita.
 - **Pinhão do motor**: 04C, 9T, furo 8mm, aço 45#
 - **Coroa da roda**: 25H, 70T, 29mm (original: 47T — trocada por mais torque)
 - **Relação de marcha**: 7.78:1
+
+## Velocidade Máxima Teórica
+
+| Condição | Velocidade |
+|---|---|
+| Nominal (59.2V) | 70.9 km/h |
+| Carga cheia (67.2V) | 80.4 km/h |
+| Estimada na prática (~80%) | 57–64 km/h |
+
+> Cálculo: 190KV × 59.2V = 11.248 RPM → / 7.78 = 1.446 RPM roda → × π × 0.260m = 70.9 km/h
 
 ## Firmware
 
