@@ -17,6 +17,12 @@ Backup de configurações do skate elétrico Maldita.
 - **Potência**: 3250W cada
 - **Proteção**: À prova d'água e à prova de poeira
 
+## Controle Remoto
+
+- **Modelo**: Tela remota com receptor único (Uni1 versão 2)
+- **Compatibilidade**: VESC, Spintend Ubox V2
+- **Frequência**: 2.4GHz
+
 ## Firmware
 
 - **Versão**: v6.06 (base VESC)

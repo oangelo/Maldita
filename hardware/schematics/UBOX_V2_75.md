@@ -25,6 +25,15 @@
 - MOSFETs: (a documentar)
 - Driver: (a documentar)
 
+## Controle Remoto
+
+| Parâmetro | Valor |
+|---|---|
+| Modelo | Tela remota com receptor único |
+| Versão | Uni1 v2 |
+| Frequência | 2.4GHz |
+| Compatibilidade | VESC, Spintend Ubox V2 |
+
 ## Motores
 
 | Parâmetro | Valor |
